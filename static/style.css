@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
 
-
+body {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 25px;
+  font-family: 'Source Serif Pro', serif;
+  background-color: white;
+}
 .footer1{
 
     width: 100%;
@@ -20,7 +26,7 @@ a {
   color: #FFFFFF;
   overflow: hidden;
   text-decoration: none;
-  
+
 }
 
 a:hover {
@@ -178,12 +184,7 @@ img {
   border-color: #7900FF;
 }
 
-body {
-  text-align: center;
-  vertical-align: middle;
-  font-size: 25px;
-  font-family: 'Source Serif Pro', serif;
-}
+
 
 td {
   border-radius: 8px;
