@@ -16,13 +16,13 @@ function addHS(){
   if(var2==0){
     var2=1;
     document.getElementById('hs1').style.display="inline-block";
-    document.getElementById('hs2').style.display="inline-block";
+    document.getElementById('hs2').style.visibility="visible";
     document.getElementById('HS3').className="fa fa-minus-circle";
   }
   else{
     var2=0;
     document.getElementById('hs1').style.display="none";
-    document.getElementById('hs2').style.display="none";
+    document.getElementById('hs2').style.visibility="hidden";
     document.getElementById('HS3').className="fa fa-plus-circle";
 
   }
