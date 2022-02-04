@@ -6,7 +6,7 @@ function changeMode(){
   }
   else{
     var1=0;
-    document.body.style.backgroundColor="white";
+    document.body.style.backgroundColor="#5c008a";
   }
 
 }
